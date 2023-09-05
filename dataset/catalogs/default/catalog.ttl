@@ -1,0 +1,5 @@
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+<>
+    a dfc-b:Catalog;
+    dfc-b:lists </catalogs/default/catalog-items/catalog-item1#catalogItem1>.

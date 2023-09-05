@@ -1,0 +1,25 @@
+@prefix : <#>.
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+<>
+    a dfc-b:Order;
+    dfc-b:orderNumber "0001";
+    dfc-b:date "December 26, 2022 15:02:18";
+    dfc-b:orderedBy </agents/persons/person1.ttl>;
+    dfc-b:hasPart
+        :orderLine1, 
+        :orderLine2.
+
+:orderLine1
+    a dfc-b:OrderLine;
+    dfc-b:description "Catalog item 1 solded for 2.5€";
+    dfc-b:partOf <>;
+    dfc-b:concerns </catalogs/default/catalog-items/catalog-item1#offer1>;
+    dfc-b:quantity 2.5.
+
+:orderLine2
+    a dfc-b:OrderLine;
+    dfc-b:description "Catalog item solded for 1€";
+    dfc-b:partOf <>;
+    dfc-b:concerns </catalogs/default/catalog-items/catalog-item1#offer2>;
+    dfc-b:quantity 1.0.

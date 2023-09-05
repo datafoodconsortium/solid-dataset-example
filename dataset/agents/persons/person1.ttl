@@ -1,0 +1,7 @@
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+<>
+    a dfc-b:Person;
+    dfc-b:firstName "A first name";
+    dfc-b:familyName "A family name";
+    dfc-b:hasAddress </addresses/address1.ttl>.

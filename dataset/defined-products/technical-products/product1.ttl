@@ -1,0 +1,9 @@
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+@prefix dfc-pt: <https://www.datafoodconsortium.org/product-types#>.
+
+<>
+    a dfc-b:TechnicalProduct;
+    dfc-b:hasType dfc-pt:tomato;
+    dfc-b:description "Tomato";
+    dfc-b:satisfy </defined-products/functional-products/product1.ttl>;
+    dfc-b:industrializedBy </defined-products/supplied-products/product1.ttl>.

@@ -1,0 +1,8 @@
+@prefix : <#>.
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+:1
+    a dfc-b:CatalogItemIndexEntry;
+    dfc-b:indexes <./catalog-items/catalog-item1.ttl>;
+    skos:prefLabel "vegetable".

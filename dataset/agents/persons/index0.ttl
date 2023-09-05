@@ -1,0 +1,7 @@
+@prefix : <#>.
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+:1
+    a dfc-b:PersonIndexEntry;
+    dfc-b:indexes </agents/persons/person1.ttl>;
+    dfc-b:familyName "A family name".

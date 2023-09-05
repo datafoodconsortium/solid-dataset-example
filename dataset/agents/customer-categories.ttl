@@ -1,0 +1,6 @@
+@prefix : <#>.
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+:default
+    a dfc-b:CustomerCategory;
+    dfc-b:description "Regular clients".

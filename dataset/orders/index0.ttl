@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+@prefix dfc-m: <https://www.datafoodconsortium.org/measures#>.
+
+:1
+    a dfc-b:OrderIndexEntry;
+    dfc-b:indexes </orders/order1.ttl>;
+    dfc-b:orderNumber "0001";
+    dfc-b:date "December 26, 2022 15:02:18";
+    dfc-b:orderedBy </agents/persons/person1.ttl>;
+    dfc-b:hasPrice :p1;
+    dfc-b:hasParts 2.
+
+:p1
+    a dfc-b:Price;
+    dfc-b:value 12.20;
+    dfc-b:VATrate 5.5;
+    dfc-b:hasUnit dfc-m:Euro.

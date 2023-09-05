@@ -1,0 +1,8 @@
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+<>
+    a dfc-b:Address;
+    dfc-b:street "A street";
+    dfc-b:city "A city name";
+    dfc-b:postcode "A post code";
+    dfc-b:country: "A country".

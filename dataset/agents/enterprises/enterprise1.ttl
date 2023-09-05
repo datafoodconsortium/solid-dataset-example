@@ -1,0 +1,12 @@
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+<>
+    a dfc-b:Enterprise;
+    dfc-b:hasAddress </addresses/address1.ttl>;
+    dfc-b:description "Enterprise description.";
+    dfc-b:VATnumber 0123456789;
+    dfc-b:defines </agents/customer-categories.ttl#default>;
+    dfc-b:requests </defined-products/functional-products/product1.ttl>;
+    dfc-b:proposes </defined-products/technical-products/product1.ttl>;
+    dfc-b:supplies </defined-products/supplied-products/product1.ttl>;
+    dfc-b:manages </catalogs/default/catalog-items/catalog-item1.ttl#catalogItem1>.
