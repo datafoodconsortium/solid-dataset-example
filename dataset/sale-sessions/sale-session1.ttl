@@ -1,0 +1,7 @@
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+
+<>
+    a dfc-b:SaleSession;
+    dfc-b:beginDate "December 26, 2022 14:00:00";
+    dfc-b:endDate "December 26, 2022 18:00:00";
+    dfc-b:lists </catalogs/default/catalog-items/catalog-item1.tll#offer1>.

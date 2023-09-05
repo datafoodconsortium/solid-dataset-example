@@ -18,7 +18,8 @@
     dfc-b:offeredTo </agents/customer-categories.tll#default>;
     dfc-b:offers <./>;
     dfc-b:hasPrice :price1;
-    dfc-b:stockLimitation 12.
+    dfc-b:stockLimitation 12;
+    dfc-b:listedIn </sale-sessions/sale-session1.ttl>.
 
 :offer2
     a dfc-b:Offer;
