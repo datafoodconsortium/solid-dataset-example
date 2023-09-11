@@ -7,10 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1]
+
 ### Added
 
 - The dataset folder.
 - A readme file.
 - This changelog file.
 
-[unreleased]: https://github.com/datafoodconsortium/solid-dataset-example
+[unreleased]: https://github.com/datafoodconsortium/solid-dataset-example/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/datafoodconsortium/solid-dataset-example/releases/tag/v0.0.1

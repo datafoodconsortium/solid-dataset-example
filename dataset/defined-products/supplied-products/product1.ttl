@@ -1,3 +1,4 @@
+@base <https://example.pod/username/datafoodconsortium>.
 @prefix dfc-b: <https://www.datafoodconsortium.org#>.
 @prefix dfc-pt: <https://www.datafoodconsortium.org/product-types#>.
 @prefix dfc-f: <https://www.datafoodconsortium.org/facets#>.

@@ -1,8 +1,18 @@
-@prefix : <#>.
-@prefix dfc-b: <https://www.datafoodconsortium.org#>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@base <https://example.pod/username/datafoodconsortium>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix dfc-pt: <https://www.datafoodconsortium.org/productTypes#>.
+@prefix index: <TBD>.
 
-:1
-    a dfc-b:CatalogItemIndexEntry;
-    dfc-b:indexes <./catalog-items/catalog-item1.ttl>;
-    skos:prefLabel "vegetable".
+<>
+    a index:Index;
+    a solid:ListedDocument.
+
+<#ab09fd> a index:Registration;
+    solid:instance </catalogs/default/catalog-items/artichoke.ttl>;
+    index:mentions dfc-pt:artichoke.
+    
+<#tf76pl> a index:Registration;
+    solid:instance 
+        </catalogs/default/catalog-items/round-tomato.ttl>,
+        </catalogs/default/catalog-items/cherry-tomato.ttl>;
+    index:mentions dfc-pt:tomato.

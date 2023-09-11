@@ -1,7 +1,24 @@
-@prefix : <#>.
+@base <https://example.pod/username/datafoodconsortium>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
 @prefix dfc-b: <https://www.datafoodconsortium.org#>.
+@prefix index: <TDB>.
 
-:1
-    a dfc-b:PersonIndexEntry;
-    dfc-b:indexes </agents/persons/person1.ttl>;
-    dfc-b:familyName "A family name".
+<>
+    a index:Index;
+    a solid:ListedDocument;
+    index:forProperty dfc-b:familyName.
+
+# This is indexing persons with a family name starting with the letter "a".
+<#ab09fd> a index:Registration;
+    index:strstarts "a";
+    solid:instance  </agents/persons/person32.ttl>, </agents/persons/person12.ttl>.
+
+# This is indexing persons with a family name starting with the letter "b".
+<#zx45yh> a index:Registration;
+    index:strstarts "b";
+    solid:instance  </agents/persons/person56.ttl>, </agents/persons/person78.ttl>.
+
+# This is indexing persons with a family name starting with the letter "z".
+<#sk17vb> a index:Registration;
+    index:strstarts "z";
+    solid:instance  </agents/persons/person2.ttl>, </agents/persons/person63.ttl>.

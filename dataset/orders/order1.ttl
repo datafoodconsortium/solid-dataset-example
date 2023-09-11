@@ -1,3 +1,4 @@
+@base <https://example.pod/username/datafoodconsortium>.
 @prefix : <#>.
 @prefix dfc-b: <https://www.datafoodconsortium.org#>.
 

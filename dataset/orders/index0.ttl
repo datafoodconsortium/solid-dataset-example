@@ -1,18 +1,21 @@
-@prefix : <#>.
+@base <https://example.pod/username/datafoodconsortium>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
 @prefix dfc-b: <https://www.datafoodconsortium.org#>.
 @prefix dfc-m: <https://www.datafoodconsortium.org/measures#>.
+@prefix index: <TBD>.
 
-:1
-    a dfc-b:OrderIndexEntry;
-    dfc-b:indexes </orders/order1.ttl>;
-    dfc-b:orderNumber "0001";
-    dfc-b:date "December 26, 2022 15:02:18";
-    dfc-b:orderedBy </agents/persons/person1.ttl>;
-    dfc-b:hasPrice :p1;
-    dfc-b:hasParts 2.
-
-:p1
-    a dfc-b:Price;
-    dfc-b:value 12.20;
-    dfc-b:VATrate 5.5;
-    dfc-b:hasUnit dfc-m:Euro.
+<>
+    a index:Index;
+    a solid:ListedDocument;
+    
+<#1>
+    a index:Registration;
+    index:year 2022;
+    index:month 12;
+    solid:instance </orders/order2.ttl>.
+    
+<#2>
+    a index:Registration;
+    index:year 2022;
+    index:month 11;
+    solid:instance </orders/order1.ttl>.
