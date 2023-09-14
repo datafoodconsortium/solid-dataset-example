@@ -1,0 +1,27 @@
+@base <http://localhost:8000/lecoqlibre/datafoodconsortium>.
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+@prefix dfc-pt: <https://www.datafoodconsortium.org/product-types#>.
+@prefix dfc-f: <https://www.datafoodconsortium.org/facets#>.
+@prefix dfc-m: <https://www.datafoodconsortium.org/measures#>.
+
+<>
+	a dfc-b:CatalogItem;
+	dfc-b:name "Spinach"
+	dfc-b:references </defined-products/supplied-products/spinach.ttl>;
+	dfc-b:stockLimitation 24;
+	dfc-b:offeredThrough <#offer1>;
+	dfc-b:listedIn </catalogs/default/catalog.ttl>.
+
+<#offer1>
+	a dfc-b:Offer;
+	dfc-b:offeredTo </agents/customer-categories.tll#default>;
+	dfc-b:offers <>;
+	dfc-b:hasPrice <#price1>;
+	dfc-b:stockLimitation 12;
+	dfc-b:listedIn </sale-sessions/sale-session1.ttl>.
+
+<#price1>
+	a dfc-b:Price;
+	dfc-b:value 5.00;
+	dfc-b:VATrate 5.5;
+	dfc-b:hasUnit dfc-m:Euro.

@@ -1,0 +1,17 @@
+@base <http://localhost:8000/lecoqlibre/datafoodconsortium>.
+@prefix dfc-b: <https://www.datafoodconsortium.org#>.
+@prefix dfc-pt: <https://www.datafoodconsortium.org/product-types#>.
+@prefix dfc-f: <https://www.datafoodconsortium.org/facets#>.
+@prefix dfc-m: <https://www.datafoodconsortium.org/measures#>.
+
+<>
+	a dfc-b:SuppliedProduct;
+	dfc-b:hasType dfc-pt:walnut;
+	dfc-b:description "Walnut";
+	dfc-b:hasCertification dfc-f:Organic-AB;
+	dfc-b:hasQuantity [
+		a dfc-b:QuantitativeValue;
+		dfc-b:hasUnit dfc-m:Kilogram;
+		dfc-b:value 1
+	];
+	dfc-b:image </images/walnut.jpg>.
