@@ -10,218 +10,218 @@
 <#apples> a index:Registration;
 	index:mentions dfc-pt:apples;
 	solid:instance 
-		</catalogs/default/catalog-items/apple.ttl>.
+		</catalog-items/apple.ttl>.
 
 <#fruit-juice> a index:Registration;
 	index:mentions dfc-pt:fruit-juice;
 	solid:instance 
-		</catalogs/default/catalog-items/apple-juice.ttl>.
+		</catalog-items/apple-juice.ttl>.
 
 <#artichoke> a index:Registration;
 	index:mentions dfc-pt:artichoke;
 	solid:instance 
-		</catalogs/default/catalog-items/artichoke.ttl>.
+		</catalog-items/artichoke.ttl>.
 
 <#asparagus> a index:Registration;
 	index:mentions dfc-pt:asparagus;
 	solid:instance 
-		</catalogs/default/catalog-items/asparagus.ttl>.
+		</catalog-items/asparagus.ttl>.
 
 <#eggplant> a index:Registration;
 	index:mentions dfc-pt:eggplant;
 	solid:instance 
-		</catalogs/default/catalog-items/aubergine.ttl>.
+		</catalog-items/aubergine.ttl>.
 
 <#bean> a index:Registration;
 	index:mentions dfc-pt:bean;
 	solid:instance 
-		</catalogs/default/catalog-items/bean-green.ttl>;
-		</catalogs/default/catalog-items/bean-purple.ttl>;
-		</catalogs/default/catalog-items/broad-bean.ttl>.
+		</catalog-items/bean-green.ttl>;
+		</catalog-items/bean-purple.ttl>;
+		</catalog-items/broad-bean.ttl>.
 
 <#beetroot> a index:Registration;
 	index:mentions dfc-pt:beetroot;
 	solid:instance 
-		</catalogs/default/catalog-items/beetroot.ttl>;
-		</catalogs/default/catalog-items/beetroot-black.ttl>;
-		</catalogs/default/catalog-items/beetroot-chioggia.ttl>;
-		</catalogs/default/catalog-items/beetroot-yellow.ttl>.
+		</catalog-items/beetroot.ttl>;
+		</catalog-items/beetroot-black.ttl>;
+		</catalog-items/beetroot-chioggia.ttl>;
+		</catalog-items/beetroot-yellow.ttl>.
 
 <#broccoli-cabbage> a index:Registration;
 	index:mentions dfc-pt:broccoli-cabbage;
 	solid:instance 
-		</catalogs/default/catalog-items/broccoli.ttl>.
+		</catalog-items/broccoli.ttl>.
 
 <#brussels-sprouts> a index:Registration;
 	index:mentions dfc-pt:brussels-sprouts;
 	solid:instance 
-		</catalogs/default/catalog-items/brussels-sprout.ttl>.
+		</catalog-items/brussels-sprout.ttl>.
 
 <#cabbage> a index:Registration;
 	index:mentions dfc-pt:cabbage;
 	solid:instance 
-		</catalogs/default/catalog-items/cabbage.ttl>.
+		</catalog-items/cabbage.ttl>.
 
 <#red-cabbage> a index:Registration;
 	index:mentions dfc-pt:red-cabbage;
 	solid:instance 
-		</catalogs/default/catalog-items/Cabbage-red.ttl>.
+		</catalog-items/Cabbage-red.ttl>.
 
 <#carrot> a index:Registration;
 	index:mentions dfc-pt:carrot;
 	solid:instance 
-		</catalogs/default/catalog-items/carrot.ttl>.
+		</catalog-items/carrot.ttl>.
 
 <#cauliflower> a index:Registration;
 	index:mentions dfc-pt:cauliflower;
 	solid:instance 
-		</catalogs/default/catalog-items/cauliflower.ttl>.
+		</catalog-items/cauliflower.ttl>.
 
 <#celeriac> a index:Registration;
 	index:mentions dfc-pt:celeriac;
 	solid:instance 
-		</catalogs/default/catalog-items/celeriac.ttl>.
+		</catalog-items/celeriac.ttl>.
 
 <#chard> a index:Registration;
 	index:mentions dfc-pt:chard;
 	solid:instance 
-		</catalogs/default/catalog-items/chard-luculus.ttl>;
-		</catalogs/default/catalog-items/chard-multi.ttl>.
+		</catalog-items/chard-luculus.ttl>;
+		</catalog-items/chard-multi.ttl>.
 
 <#cucumber> a index:Registration;
 	index:mentions dfc-pt:cucumber;
 	solid:instance 
-		</catalogs/default/catalog-items/cucumber.ttl>.
+		</catalog-items/cucumber.ttl>.
 
 <#fennel> a index:Registration;
 	index:mentions dfc-pt:fennel;
 	solid:instance 
-		</catalogs/default/catalog-items/fennel.ttl>.
+		</catalog-items/fennel.ttl>.
 
 <#garlic> a index:Registration;
 	index:mentions dfc-pt:garlic;
 	solid:instance 
-		</catalogs/default/catalog-items/garlic.ttl>.
+		</catalog-items/garlic.ttl>.
 
 <#kale-cabbage> a index:Registration;
 	index:mentions dfc-pt:kale-cabbage;
 	solid:instance 
-		</catalogs/default/catalog-items/kale.ttl>.
+		</catalog-items/kale.ttl>.
 
 <#kohlrabi> a index:Registration;
 	index:mentions dfc-pt:kohlrabi;
 	solid:instance 
-		</catalogs/default/catalog-items/kohlrabi.ttl>.
+		</catalog-items/kohlrabi.ttl>.
 
 <#leek> a index:Registration;
 	index:mentions dfc-pt:leek;
 	solid:instance 
-		</catalogs/default/catalog-items/leek.ttl>.
+		</catalog-items/leek.ttl>.
 
 <#mesclun> a index:Registration;
 	index:mentions dfc-pt:mesclun;
 	solid:instance 
-		</catalogs/default/catalog-items/mesclun.ttl>.
+		</catalog-items/mesclun.ttl>.
 
 <#onion> a index:Registration;
 	index:mentions dfc-pt:onion;
 	solid:instance 
-		</catalogs/default/catalog-items/onion-pink.ttl>;
-		</catalogs/default/catalog-items/onion-red.ttl>;
-		</catalogs/default/catalog-items/onion-yellow.ttl>.
+		</catalog-items/onion-pink.ttl>;
+		</catalog-items/onion-red.ttl>;
+		</catalog-items/onion-yellow.ttl>.
 
 <#pattypan-squash> a index:Registration;
 	index:mentions dfc-pt:pattypan-squash;
 	solid:instance 
-		</catalogs/default/catalog-items/pastry-orange.ttl>;
-		</catalogs/default/catalog-items/pastry-white.ttl>;
-		</catalogs/default/catalog-items/pastry-yellow.ttl>.
+		</catalog-items/pastry-orange.ttl>;
+		</catalog-items/pastry-white.ttl>;
+		</catalog-items/pastry-yellow.ttl>.
 
 <#peas> a index:Registration;
 	index:mentions dfc-pt:peas;
 	solid:instance 
-		</catalogs/default/catalog-items/pea.ttl>.
+		</catalog-items/pea.ttl>.
 
 <#pear> a index:Registration;
 	index:mentions dfc-pt:pear;
 	solid:instance 
-		</catalogs/default/catalog-items/pear.ttl>.
+		</catalog-items/pear.ttl>.
 
 <#pepper> a index:Registration;
 	index:mentions dfc-pt:pepper;
 	solid:instance 
-		</catalogs/default/catalog-items/pepper.ttl>.
+		</catalog-items/pepper.ttl>.
 
 <#radish> a index:Registration;
 	index:mentions dfc-pt:radish;
 	solid:instance 
-		</catalogs/default/catalog-items/radish-black.ttl>.
+		</catalog-items/radish-black.ttl>.
 
 <#raspberry> a index:Registration;
 	index:mentions dfc-pt:raspberry;
 	solid:instance 
-		</catalogs/default/catalog-items/raspberry.ttl>.
+		</catalog-items/raspberry.ttl>.
 
 <#rhubarb> a index:Registration;
 	index:mentions dfc-pt:rhubarb;
 	solid:instance 
-		</catalogs/default/catalog-items/rhubarb.ttl>.
+		</catalog-items/rhubarb.ttl>.
 
 <#rocket> a index:Registration;
 	index:mentions dfc-pt:rocket;
 	solid:instance 
-		</catalogs/default/catalog-items/salad-arugula.ttl>.
+		</catalog-items/salad-arugula.ttl>.
 
 <#savoy-cabbage> a index:Registration;
 	index:mentions dfc-pt:savoy-cabbage;
 	solid:instance 
-		</catalogs/default/catalog-items/savoy-cabbage.ttl>.
+		</catalog-items/savoy-cabbage.ttl>.
 
 <#shallot> a index:Registration;
 	index:mentions dfc-pt:shallot;
 	solid:instance 
-		</catalogs/default/catalog-items/shallot-long.ttl>;
-		</catalogs/default/catalog-items/shallot-round.ttl>.
+		</catalog-items/shallot-long.ttl>;
+		</catalog-items/shallot-round.ttl>.
 
 <#spinach> a index:Registration;
 	index:mentions dfc-pt:spinach;
 	solid:instance 
-		</catalogs/default/catalog-items/spinach.ttl>.
+		</catalog-items/spinach.ttl>.
 
 <#squash> a index:Registration;
 	index:mentions dfc-pt:squash;
 	solid:instance 
-		</catalogs/default/catalog-items/squash.ttl>.
+		</catalog-items/squash.ttl>.
 
 <#strawberry> a index:Registration;
 	index:mentions dfc-pt:strawberry;
 	solid:instance 
-		</catalogs/default/catalog-items/strawberry.ttl>.
+		</catalog-items/strawberry.ttl>.
 
 <#cherry-tomato> a index:Registration;
 	index:mentions dfc-pt:cherry-tomato;
 	solid:instance 
-		</catalogs/default/catalog-items/tomato-cherry.ttl>.
+		</catalog-items/tomato-cherry.ttl>.
 
 <#hierloom-tomato> a index:Registration;
 	index:mentions dfc-pt:hierloom-tomato;
 	solid:instance 
-		</catalogs/default/catalog-items/tomato-heirloom.ttl>.
+		</catalog-items/tomato-heirloom.ttl>.
 
 <#turnip> a index:Registration;
 	index:mentions dfc-pt:turnip;
 	solid:instance 
-		</catalogs/default/catalog-items/turnip.ttl>.
+		</catalog-items/turnip.ttl>.
 
 <#walnut> a index:Registration;
 	index:mentions dfc-pt:walnut;
 	solid:instance 
-		</catalogs/default/catalog-items/walnut.ttl>.
+		</catalog-items/walnut.ttl>.
 
 <#courgette> a index:Registration;
 	index:mentions dfc-pt:courgette;
 	solid:instance 
-		</catalogs/default/catalog-items/zucchini-green.ttl>;
-		</catalogs/default/catalog-items/zucchini-round.ttl>;
-		</catalogs/default/catalog-items/zucchini-yellow.ttl>.
+		</catalog-items/zucchini-green.ttl>;
+		</catalog-items/zucchini-round.ttl>;
+		</catalog-items/zucchini-yellow.ttl>.
 
