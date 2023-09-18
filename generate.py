@@ -82,13 +82,13 @@ def generateCatalog():
         + "\tdfc-b:lists\n"
 
 def generateCatalogList(row):
-    return "\t\t</catalog-items/" + row[1] + ".ttl>,\n"
+    return "\t\t</catalogs/default/catalog-items/" + row[1] + ".ttl>,\n"
 
 def getSuppliedProductFilename(row):
     return "./dataset/defined-products/supplied-products/" + row[1] + ".ttl"
 
 def getCatalogItemFilename(row):
-    return "./dataset/catalog-items/" + row[1] + ".ttl"
+    return "./dataset/catalogs/default/catalog-items/" + row[1] + ".ttl"
 
 def getCatalogFilename():
     return "./dataset/catalogs/default/catalog.ttl"
@@ -115,7 +115,7 @@ def generateProductTypeIndexRegistration(productType, catalogItems):
         + "\tindex:mentions dfc-pt:" + productType + ";\n" \
         + "\tsolid:instance \n"
     for catalogItem in catalogItems:
-        result += "\t\t</catalog-items/" + catalogItem + ".ttl>;\n"
+        result += "\t\t</catalogs/default/catalog-items/" + catalogItem + ".ttl>;\n"
     return result[:-2] + ".\n\n"
 
 catalog = open(getCatalogFilename(), "w")
